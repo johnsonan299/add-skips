@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="add-skips:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/add_skips_jar</output-path>
+    <root id="archive" name="add-skips.jar">
+      <element id="module-output" name="add-skips" />
+    </root>
+  </artifact>
+</component>
