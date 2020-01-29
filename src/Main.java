@@ -12,7 +12,7 @@ public class Main
         BufferedReader reader = new BufferedReader(fr);
         StringBuilder sb = new StringBuilder();
         String line = line = reader.readLine();
-        List<String> skippables = Arrays.asList("image", "variables", "stages", "cache", "before_script", ".aws_dependencies");
+        List<String> skippables = Arrays.asList("include", "image", "variables", "stages", "cache", "before_script", ".aws_dependencies");
         List<String> Vars = new ArrayList<>();
 
         int go = 0;
